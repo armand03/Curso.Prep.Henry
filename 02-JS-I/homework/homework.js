@@ -36,7 +36,7 @@ function devolverString(str) {
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
-  // Tu código:5
+  // Tu código:
   return x + y;
 }
 
@@ -245,7 +245,7 @@ function esVocal(letra){
   if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {
     return "Es vocal"
   }
-
+  
 }
 
 
