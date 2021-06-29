@@ -3,13 +3,13 @@
 const { stringify } = require("git-url-parse");
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = 'hola';
+const nuevaString = 'armando';
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 3;
+const nuevoNum = 16;
 
 // Crea una variable booleana:
-const nuevoBool = true;
+const nuevoBool = false;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -91,7 +91,11 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  return num > 50;
+  if(num > 50) {
+    return true;
+  }else {
+   return false;
+  }
 }
 
 function obtenerResto(x, y) {
@@ -138,7 +142,7 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  return Math.pow(num, exponent)
+  return Math.pow(num, exponent);
 }
 
 function redondearNumero(num) {
@@ -178,7 +182,7 @@ function esPositivo(numero) {
     return "Es positivo";
   }
   else {
-    return "Es negativo"
+    return "Es negativo";
   }
 }
 
@@ -214,14 +218,14 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  return lado * 4
+  return lado * 4;
 }
 
 
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-  return (base * altura)/2
+  return (base * altura)/2;
 
 }
 
@@ -230,7 +234,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  return euro * 1.2
+  return euro * 1.2;
 }
 
 
@@ -240,13 +244,12 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   //Escribe tu código aquí
   if(letra.length > 1){
-    return "Dato incorrecto"
+    return "Dato incorrecto";
   }
   if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {
-    return "Es vocal"
+    return "Es vocal";
+    } 
   }
-  
-}
 
 
 
